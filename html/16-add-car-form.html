@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>添加车辆</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/car.css"/>
+		<!--<script src="../script/alloydesigner.js" type="text/javascript" charset="utf-8"></script>-->
+		<script type="text/javascript">
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 15 + 'px'; 
+			})()
+		</script>
+	</head>
+	<body>
+		<header class="header-green"><img class="icon-l" src="../icon/back-white.png"/>添加车辆<img class="icon-r" src="../icon/sevice.png"/></header>
+		<div class="add-car-form p0_60">
+			<h3>请输入您的车牌号</h3>
+			<div class="flex">
+				<div class="car-address border-box">
+					<span>沪</span>
+					<em></em>
+					<!--<em class="arrow-up"></em>-->
+				</div>
+				<div class="car-no flex1 border-box flex vCenter"><input type="text" placeholder="请输入车牌号码"></div>
+			</div>
+			<div class="btn-add-car">
+				<a href="javascript:void(0)" class="btn-green">保存</a>
+				<P class="add-tips">请绑定真实有效的车牌号，否则系统无法使用自动泊车功能</P>
+			</div>
+		</div>
+	</body>
+</html>

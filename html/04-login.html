@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="linear">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/car.css"/>
+		<!--<script src="../script/alloydesigner.js" type="text/javascript" charset="utf-8"></script>-->
+		<script type="text/javascript">
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 15 + 'px'; 
+			})()
+		</script>
+	</head>
+	<body>
+		<header class="header-green">登录</header>
+		<section class="login flex hvCenter">
+			<div class="logo">logo</div>
+			<!--<img src="../image/add.png"/>-->
+		</section>
+		<section class="login-list linear-ul">
+			<ul>
+				<li class="flex">
+					<div><label>手机号</label></div>
+					<div class="flex1"><input type="tel" /></div>
+					<div><a class="verification">获取验证码</a></div>
+				</li>
+				<li class="flex">
+					<div><label>验证码</label></div>
+					<div class="flex1"><input type="text" /></div>
+				</li>
+			</ul>
+			<div class="btn-login"><a href="javascript:void(0)" class="btn-green">登录</a></div>
+		</section>
+		
+	</body>
+</html>

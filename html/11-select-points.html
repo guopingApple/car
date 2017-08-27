@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>选择取车点</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/car.css"/>
+		<!--<script src="../script/alloydesigner.js" type="text/javascript" charset="utf-8"></script>-->
+		<script type="text/javascript">
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 15 + 'px'; 
+			})()
+		</script>
+	</head>
+	<body>
+		<header class="header-green"><img class="icon-l" src="../icon/back-white.png"/>选择取车点</header>
+		<section class="home-map select-point">
+			<span class="my-position">
+				<img class="pos-me" src="../icon/pos-me.png" />
+				<img class="pos-site" src="../icon/pos-site.png" />
+			</span>
+			<span class="address-carport" style="top:2rem;">
+				<span class="pos-carport">A</span>
+			</span>
+			<span class="address-carport address-carport-2" style="top:6rem;">
+				<span class="pos-carport">B</span>
+			</span>
+		</section>
+		<section class="points-list">
+			<ul>
+				<li class="flex vCenter">
+					<em>A</em>
+					<div class="flex1">
+						<h3>创新港A取车点</h3>
+						<p>距离您当前位置104米</p>
+					</div>
+					<span>当前15人排队取车</span>
+				</li>
+				<li class="flex vCenter">
+					<em>B</em>
+					<div class="flex1">
+						<h3>创新港B取车点</h3>
+						<p>距离您当前位置307米</p>
+					</div>
+					<span>无人排队</span>
+				</li>
+			</ul>
+		</section>
+	</body>
+</html>

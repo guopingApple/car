@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>预约取车</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/car.css"/>
+		<!--<script src="../script/alloydesigner.js" type="text/javascript" charset="utf-8"></script>-->
+		<script type="text/javascript">
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 15 + 'px'; 
+			})()
+		</script>
+	</head>
+	<body>
+		<header class="header-green">
+			<img class="icon-l" src="../icon/back-white.png"/>
+			预约取车
+			<img class="icon-r" src="../icon/sevice.png"/>
+		</header>
+		<nav class="tab flex">
+			<a>司机视角</a>
+			<a class="curr">园区视角</a>
+		</nav>
+		<section class="parking-driving">
+			<h3>距离停车位506米 预计5分钟后到达</h3>
+		</section>
+		<section class="driving-car mb20">
+			<p class="info">10s后获取最新图像</p>
+			<span class="timely">实时显示</span>
+			<span class="refresh"></span>
+		</section>
+		<section class="driving-map"></section>
+		<a class="btn-queue">取车排队情况</a>
+	</body>
+</html>

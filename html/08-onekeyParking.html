@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>一键泊车</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/car.css"/>
+		<!--<script src="../script/alloydesigner.js" type="text/javascript" charset="utf-8"></script>-->
+		<script type="text/javascript">
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 15 + 'px'; 
+			})()
+		</script>
+	</head>
+	<body>
+		<header class="header-green">
+			<img class="icon-l" src="../icon/back-white.png"/>
+			一键泊车
+			<img class="icon-r" src="../icon/sevice.png"/>
+		</header>
+		<section class="parking">
+			<h3>距离停车位506米 预计5分钟后到达</h3>
+			<div class="flex hvCenter parking-car">
+				<img src="../image/car.jpg" />
+			</div>
+			<section class="btn-green-wrap border-box toTop">
+				<a href="javascript:void(0)" class="btn-green">一键泊车</a>
+			</section>
+		</section>
+		<footer class="flex hvCenter">
+			<div class="flex1 curr">
+				<img src="../icon/home-s.png"/>
+				<span>首页</span>
+			</div>
+			<div class="flex1">
+				<img src="../icon/near.png"/>
+				<span>周边</span>
+			</div>
+			<div class="flex1">
+				<img src="../icon/mine.png"/>
+				<span>我的</span>
+			</div>
+		</footer>
+		
+	</body>
+</html>

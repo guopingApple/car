@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/car.css"/>
+		<!--<script src="../script/alloydesigner.js" type="text/javascript" charset="utf-8"></script>-->
+		<script type="text/javascript">
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 15 + 'px'; 
+			})()
+		</script>
+	</head>
+	<body>
+		<header class="header-green"><img class="icon-r" src="../icon/sevice.png"/>创新港・智慧停</header>
+		<section class="home-map">
+			<span class="my-position">
+				<img class="pos-me" src="../icon/pos-me.png" />
+				<img class="pos-site" src="../icon/pos-site.png" />
+			</span>
+			<span class="address-carport">
+				<span class="pos-carport">33</span>
+				<span class="map-address">碧波路151号</span>
+			</span>
+			<span class="address-carport address-carport-2">
+				<span class="pos-carport">66</span>
+				<span class="map-address">浦东新区李冰路151号</span>
+			</span>
+		</section>
+		<section class="search-home border-box">
+			<div class="searchbox flex hvCenter">
+				<input type="text" placeholder="搜索园区、周边、停车位" />
+			</div>
+		</section>
+		<footer class="flex hvCenter">
+			<div class="flex1 curr">
+				<img src="../icon/home-s.png"/>
+				<span>首页</span>
+			</div>
+			<div class="flex1">
+				<img src="../icon/near.png"/>
+				<span>周边</span>
+			</div>
+			<div class="flex1">
+				<img src="../icon/mine.png"/>
+				<span>我的</span>
+			</div>
+		</footer>
+		
+	</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>车位监控</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/car.css"/>
+		<!--<script src="../script/alloydesigner.js" type="text/javascript" charset="utf-8"></script>-->
+		<script type="text/javascript">
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 15 + 'px'; 
+			})()
+		</script>
+	</head>
+	<body>
+		<header class="header-green">
+			<img class="icon-l" src="../icon/back-white.png"/>
+			车位监控
+			<img class="icon-r" src="../icon/sevice.png"/>
+		</header>
+		<section class="parking-driving">
+			<h3>张江创新港一号停车库32号车位 停车场实时监控</h3>
+		</section>
+		<section class="driving-car mb20">
+			<p class="info">10s后获取最新图像</p>
+			<span class="timely">实时显示</span>
+			<span class="refresh"></span>
+		</section>
+		<section class="parking-price flex hvCenter">
+			<p>停车费<span>15.2</span>元</p>
+		</section>
+		<section class="p0_60">
+			<p class="parking-time">累计停车时长：4小时15分钟</p>
+			<a href="javascript:void(0)" class="btn-green">一键取车</a>
+		</section>
+	</body>
+</html>

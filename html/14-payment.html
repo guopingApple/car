@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>支付停车费</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/car.css"/>
+		<!--<script src="../script/alloydesigner.js" type="text/javascript" charset="utf-8"></script>-->
+		<script type="text/javascript">
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 15 + 'px'; 
+			})()
+		</script>
+	</head>
+	<body class="bg-gray">
+		<header class="header-green"><img class="icon-l" src="../icon/back-white.png"/>支付停车费</header>
+		<section class="payment">
+			<div class="payment-title flex hvCenter">车辆已抵达取车点</div>
+			<ul class="lineList">
+				<li class="flex vCenter">
+					<div class="flex1">
+						张江创新港一号停车库32号车位
+					</div>
+				</li>
+				<li class="flex vCenter">
+					<div class="flex1">支付金额</div>
+					<span class="color-green">8.5元</span>
+				</li>
+			</ul>
+			<p class="payment-title-sm flex vCenter">选择支付方式</p>
+			<ul class="lineList payment-list">
+				<li class="flex vCenter">
+					<img src="../icon/zhi.png" />
+					<div class="flex1">支付宝支付</div>
+					<em class="selected"></em>
+				</li>
+				<li class="flex vCenter">
+					<img src="../icon/weixin.png" />
+					<div class="flex1">微信支付</div>
+					<em></em>
+				</li>
+			</ul>
+			<div class="p0_60 btn-payment">
+				<a href="javascript:void(0)" class="btn-green">确认支付</a>
+			</div>
+		</section>
+	</body>
+</html>
